@@ -1,3 +1,8 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/twhx99/mmbbs-student-database/badge)](https://www.codefactor.io/repository/github/twhx99/mmbbs-student-database)
+[![GitHub license](https://img.shields.io/github/license/twhx99/mmbbs-student-database)](https://github.com/twhx99/mmbbs-student-database/blob/master/LICENSE)
+![Docker Pulls](https://img.shields.io/docker/pulls/twhx/mmbbs-student-database)
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/twhx/mmbbs-student-database)
+
 # mmbbs-student-database
 Docker image of a MariaDB / MySQL database with tables and records for teaching at MMBBS
 
