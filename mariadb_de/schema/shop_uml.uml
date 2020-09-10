@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>37e89f80-7b32-4965-99ef-2f94ff40bbbd.SCHEMA:shop</OriginalElement>
+  <nodes>
+    <node x="-3.5" y="397.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.position</node>
+    <node x="251.0" y="644.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.kunde</node>
+    <node x="51.0" y="721.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.anrede</node>
+    <node x="540.5" y="441.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellstatus</node>
+    <node x="-19.5" y="-38.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel_kategorie</node>
+    <node x="253.0" y="397.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellung</node>
+    <node x="-27.5" y="106.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel</node>
+    <node x="260.5" y="150.5">37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.mwst_satz</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.position" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel_kategorie">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.position" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellung">
+      <point x="83.5" y="0.0" />
+      <point x="-107.0" y="0.0" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.artikel" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.mwst_satz">
+      <point x="107.5" y="0.0" />
+      <point x="-99.5" y="0.0" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.kunde" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.anrede">
+      <point x="-109.0" y="0.0" />
+      <point x="69.0" y="0.0" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellung" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.kunde">
+      <point x="0.0" y="82.5" />
+      <point x="0.0" y="-115.5" />
+    </edge>
+    <edge source="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellung" target="37e89f80-7b32-4965-99ef-2f94ff40bbbd.TABLE:shop.bestellstatus">
+      <point x="107.0" y="0.0" />
+      <point x="-99.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.7284916201117319" x="437.5000000000001" y="405.0000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
