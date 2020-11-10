@@ -1,7 +1,7 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/twhx99/student-database/badge)](https://www.codefactor.io/repository/github/twhx99/student-database)
-[![GitHub license](https://img.shields.io/github/license/twhx99/student-database)](https://github.com/twhx99/student-database/blob/master/LICENSE)
-![Docker Pulls](https://img.shields.io/docker/pulls/twhx/student-database)
-![Docker Image Version (latest by date)](https://img.shields.io/docker/v/twhx/student-database)
+[![CodeFactor](https://www.codefactor.io/repository/github/twiese99/student-database/badge)](https://www.codefactor.io/repository/github/twiese99/student-database)
+[![GitHub license](https://img.shields.io/github/license/twiese99/student-database)](https://github.com/twiese99/student-database/blob/master/LICENSE)
+![Docker Pulls](https://img.shields.io/docker/pulls/twiese99/student-database)
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/twiese99/student-database)
 
 # student-database
 Docker image of a MariaDB / MySQL database with tables and records for teaching
